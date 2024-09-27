@@ -1,3 +1,5 @@
+// :)
+// team lab
 import acm.graphics.GImage;
 import acm.graphics.GLabel;
 import acm.program.GraphicsProgram;
@@ -11,7 +13,7 @@ public class SimplePicture extends GraphicsProgram {
 	}
 	
 	public void run() {
-		GImage robot = new GImage(ROBOT_PNG, 200, 100);
+		GImage robot = new GImage(ROBOT_PNG, 200, 300);
 		add(robot);
 		GLabel label = new GLabel("How I feel when using github hackslash", 200, 400);
 		add(label);
